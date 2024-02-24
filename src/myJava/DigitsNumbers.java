@@ -12,7 +12,7 @@ public class DigitsNumbers {
 
         int sumAllDigits = 0;
         int sumOddDigits = 0;
-        int maxDigit = 0;
+        int maxDigit = Integer.MIN_VALUE;
 
         while (a != 0) {
             int digit = a % 10;
@@ -33,6 +33,5 @@ public class DigitsNumbers {
         System.out.println("Сумма нечетных цифр числа: " + sumOddDigits);
         System.out.println("Максимальная цифра числа: " + maxDigit);
 
-        scanner.close();
     }
 }
