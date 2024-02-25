@@ -2,8 +2,7 @@ package myJava;
 
 public class Loop {
     public static void main(String[] args) {
-        int i = 0;
-        for (i = 100; i >= 1; i--) {
+        for (int i = 100; i >= 1; i--) {
             if (getMultipleOf4(i)) {
                 System.out.println(i);
             }
