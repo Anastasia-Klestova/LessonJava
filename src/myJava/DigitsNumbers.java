@@ -8,11 +8,11 @@ public class DigitsNumbers {
 
         System.out.print("Введите целое число: ");
         int a = scanner.nextInt();
-        System.out.println(a);
 
         int sumAllDigits = 0;
         int sumOddDigits = 0;
         int maxDigit = Integer.MIN_VALUE;
+        a = Math.abs(a);
 
         while (a != 0) {
             int digit = a % 10;
